@@ -1,0 +1,299 @@
+*{
+	margin: 0;
+	padding:0;
+}
+h1,h2,h3,h4,h5,h6,p{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	max-width:1020px;
+	width:96%;
+	margin:50px auto;
+	background:rgba(73, 68, 67,0.6);
+	box-shadow:4px 6px 4px black;
+	padding-bottom: 30px;
+	min-height:530px;
+}
+.container table{
+	width:90%;
+	margin: 30px auto;
+	padding:50px 20px;
+
+}
+.container h2{
+	text-align:center;
+	padding-top:20px;
+	color:white;
+	font-family:tahoma;
+	text-transform:capitalize;
+	font-style: italic;
+	padding-bottom:20px !important;
+	position: relative;
+	text-shadow:3px 5px 3px black;
+	transition:1s;
+}
+.container h2:hover{
+	color:red;
+}
+.container h2:after{
+	content: "";
+	display:block;
+	clear: both;
+	position:absolute;
+	width:0px;
+	height: 3px;
+	background:green;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width:90px;
+	margin: 0 auto;
+	transition:0.5s;
+
+}
+.container h2:hover:after {
+	width:160px;
+	background: Red;
+}
+.add-bazar-list{
+	text-decoration:none;
+	display:inline-block;
+	padding:12px 20px;
+	color:#ffffff;
+	font-family:arial;
+	text-transform: capitalize;
+	background:green;
+	margin-top: 40px;
+	margin-left:5%;
+	font-weight:bold;
+	border-radius:5px;
+}
+table{
+	border:1px solid black;
+	border-collapse: collapse;
+}
+table tr,th,td{
+	border: 1px solid black;
+	padding:14px;
+	text-align: center;
+	color:#ffffff;
+	font-family: arial;
+	text-transform: capitalize;
+}
+.btn{
+	text-decoration: none;
+	display: inline-block;
+	padding:6px 8px;
+	border-radius:4px;
+	color: white;
+	font-family: arial;
+	font-size: 13px;
+	text-transform: uppercase;
+	transition:0.5s;
+}
+.btn:hover{
+	background:orange;
+}
+.v-btn{
+	background:green;
+	margin-right:8px;
+}
+.u-btn{
+	background:blue;
+	margin-right:8px;
+}
+.d-btn{
+	background:red;
+	margin-right:8px;
+}
+.h-btn{
+	background:orange !important;
+}
+/*add page style start*/
+.middle{
+	max-width: 700px !important;
+	width: 90%;
+	margin: 50px auto;
+	background: gray;
+	padding:50px 20px;
+	box-sizing: border-box;
+	box-shadow: 4px 5px 4px black;
+	border-radius: 5px;
+}
+.add-bazar{
+	text-align: center;
+	color:white;
+	font-family: arial;
+	text-transform:capitalize;
+	padding-bottom:20px;
+	transition:1s;
+	margin-bottom:20px;
+	border-bottom:3px dotted blue;
+
+}
+.add-bazar:hover{
+	color: blue;
+	border-bottom:3px dotted red;
+
+}
+form{
+	width:70%;
+	margin: 0 auto;
+	padding:20px;
+	box-sizing: border-box;
+	border:3px dotted green;
+	transition:1s;
+}
+form:hover{
+	border:3px dotted red ;
+}
+form label{
+	font-family: arial;
+	font-size:16px;
+	color: white;
+	text-transform:capitalize;
+}
+
+form input{
+	width:90%;
+	padding:4px 0px;
+	margin:8px 0px;
+	display:block;
+	padding-left:10px;
+	box-sizing: border-box;
+	font-size: 13px;
+	text-transform: capitalize;
+}
+form input[type="reset"] {
+	background: red;
+	border: none;
+	width:auto;
+	padding-left: 0px;
+	padding: 8px 20px;
+	color: white;
+	font-weight:bold ;
+	float: left;
+	margin-right:12px;
+	transiton: 1s;
+	border-radius:5px;
+}
+form input[type="submit"] {
+	background:green !important;
+	border: none;
+	width:auto;
+	padding-left: 0px;
+	padding: 8px 20px;
+	color: white;
+	font-weight:bold ;
+	margin-top: 16px;
+	transiton: 1s;
+	border-radius:5px;
+	
+
+}
+form input[type="submit"]:hover{
+	background: blue !important;
+	cursor: pointer;
+}
+form input[type="reset"]:hover{
+	background:orange;
+	cursor: pointer;
+}
+/*start view table style*/
+.vtable{
+	width:600px;
+	margin:60px auto;
+	background:gray;
+	padding: 40px;
+	box-sizing: border-box;
+}
+.vtext{
+	text-align: center;
+	font-family: arial;
+	text-transform: capitalize;
+	font-size: 18px;
+	font-style: italic;
+	padding-bottom:30px;
+	transiton: 2s;
+}
+.vtext:hover{
+	color: red;
+}
+.viewtable{
+	width:90%;
+	margin: 0 auto;
+}
+.viewtable td{
+	text-align: center;
+	transition:2s;
+}
+.viewtable th{
+	transition:2s;
+}
+.viewtable td:hover{
+	color: blue;
+	cursor: pointer;
+}
+.viewtable th:hover{
+	color: blue;
+	cursor: pointer;
+}
+/*another option style start*/
+.other-option{
+	width:90%;
+	margin:0 auto;
+}
+.othrer-option-left{
+	width:50%;
+	float: left;
+}
+
+
+a.total{
+	text-decoration:none;
+	display:inline-block;
+	padding:12px 20px;
+	background:green;
+	color: white;
+	font-family: arial;
+	font-weight:bold;
+	text-transform:capitalize;
+	border-radius:5px;
+}
+/*total cost style*/
+.total-cost-area{
+	width:600px;
+	margin:50px auto;
+	background:gray;
+	padding:40px;
+	box-siznig:border-box;
+	border-radius:5px;
+	box-shadow:5px 8px 3px black;
+}
+.total-cost-area h2{
+	text-align: center;
+	font-family: arial;
+	text-transform:capitalize;
+	color: blue;
+	padding-bottom:12px;
+	text-shadow:2px 2px 2px red;
+}
+.total-cost-area h3{
+	color: black;
+	font-family: arial;
+	text-transform: capitalize;
+	padding-left:130px;
+	font-weight: normal;
+	font-style: italic;
+	margin-bottom: 12px;
+	border-radius: 5px;
+	box-shadow: 3px 3px 4px black;
+	padding:12px 125px;
+	text-shadow:2px 1px 2px blue;
+	font-size: 22px;
+	transiton:1s;
+}
+.total-cost-area h3:hover{
+	color:white;
+}
